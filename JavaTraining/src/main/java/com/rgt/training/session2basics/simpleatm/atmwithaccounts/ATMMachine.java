@@ -87,8 +87,6 @@ public class ATMProject {
                                         default:
                                             System.out.println("Invalid option. Please try again.");
                                     }
-                                    System.out.println();
-
                                 } while (choice != 4);
                             } else {
                                 System.out.println("Invalid account number or PIN.");
@@ -104,8 +102,6 @@ public class ATMProject {
                         default:
                             System.out.println("Invalid option. Please try again.");
                     }
-
-                    System.out.println();
                 }
             }
         }
